@@ -1,5 +1,8 @@
 # bdd-starter
-Stack para teste automatizado web, utilizando Cucumber, Capybara e SitePrism.
+Stack para teste automatizado web, utilizando Cucumber, Capybara e SitePrism.  
+* [Cucumber](https://docs.cucumber.io/)
+* [Capybara](https://github.com/teamcapybara/capybara)
+* [SitePrism](https://github.com/natritmeyer/site_prism)
 
 ## Setup
 ### Instalar o RBENV
@@ -26,6 +29,10 @@ Na raiz do projeto de teste, execute o seguinte comando:
 Para executar o teste especificando o profile(navegador, ambiente ou tipo de relatório), execute o seguinte comando:
 ```bundle exec cucumber -p firefox -p dev```  
 No arquivo /config/cucumber.yml, está a lista de perfis disponíveis.
+
+### Executando o teste com tags
+Para executar o teste especificando a tag, execute o seguinte comando:
+```bundle exec cucumber --tags @run```
 
 ## Referências
 [https://github.com/samycici/cucumber-capybara-site_prism](https://github.com/samycici/cucumber-capybara-site_prism)
