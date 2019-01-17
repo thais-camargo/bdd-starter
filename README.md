@@ -36,6 +36,7 @@ Para executar o teste especificando a tag, execute o seguinte comando:
 
 ## Referências
 [https://github.com/samycici/cucumber-capybara-site_prism](https://github.com/samycici/cucumber-capybara-site_prism)
+
 ### Modo Headless no Chrome
-Saiba mais sobre o modo headless do chrome
+Saiba mais sobre o modo headless do chrome  
 [http://www.codeatest.com/chrome-headless-selenium-webdriver/](http://www.codeatest.com/chrome-headless-selenium-webdriver/)
