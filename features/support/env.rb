@@ -9,8 +9,6 @@ require 'capybara/poltergeist'
 BROWSER = ENV['BROWSER']
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE']
 
-puts BROWSER
-
 Capybara.register_driver :selenium do |app|
 
   if BROWSER.eql?('chrome')
@@ -18,7 +16,8 @@ Capybara.register_driver :selenium do |app|
     :browser => :chrome,
     :desired_capabilities => Selenium::WebDriver::Remote::Capabilities.chrome(
       'chromeOptions' => {
-        'args' => [ "--start-maximized" ]
+        #'args' => [ "--start-maximized", "headless"]
+        'args' => [ "--start-maximized"]
       }
     )
   )

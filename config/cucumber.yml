@@ -7,3 +7,4 @@ internet_explorer: BROWSER=internet_explorer
 safari: BROWSER=safari
 dev: ENVIRONMENT_TYPE=dev
 stage: ENVIRONMENT_TYPE=stage
+headless: MODO_HEADLESS=true
