@@ -1,5 +1,6 @@
 Dado("que eu esteja na página principal do sistema") do
-    pending # Write code here that turns the phrase above into concrete actions
+    @login = LoginPage.new
+    @login.visit(CONFIG['url'])
 end
   
 Quando("faço o login com o com o email {string} e senha {string}") do |email, senha|
