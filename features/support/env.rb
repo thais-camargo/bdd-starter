@@ -34,3 +34,4 @@ Capybara.register_driver :selenium do |app|
 end
 
 Capybara.default_max_wait_time = 10
+Capybara.ignore_hidden_elements = false
