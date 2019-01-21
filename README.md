@@ -19,7 +19,7 @@ Na raiz do projeto de teste, execute o seguinte comando:
 ### Instalar os DRIVERS
 * [Chrome Driver](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver)
 * [Internet Explorer Driver](http://www.seleniumhq.org/download/)
-* [PhantonJS](http://phantomjs.org/)
+* [PhantonJS](https://github.com/teampoltergeist/poltergeist)
 
 ## Executando os testes
 Na raiz do projeto de teste, execute o seguinte comando:  
@@ -40,3 +40,6 @@ Para executar o teste especificando a tag, execute o seguinte comando:
 ### Modo Headless no Chrome
 Saiba mais sobre o modo headless do chrome  
 [http://www.codeatest.com/chrome-headless-selenium-webdriver/](http://www.codeatest.com/chrome-headless-selenium-webdriver/)
+
+### Saiba mais sobre o PhantomJS
+[https://github.com/RefugeRestrooms/refugerestrooms/wiki/What-is-Capybara%3F-What-is-PhantomJS%3F-What-is-Poltergeist%3F](https://github.com/RefugeRestrooms/refugerestrooms/wiki/What-is-Capybara%3F-What-is-PhantomJS%3F-What-is-Poltergeist%3F)
