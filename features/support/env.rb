@@ -16,8 +16,8 @@ Capybara.register_driver :selenium do |app|
     :browser => :chrome,
     :desired_capabilities => Selenium::WebDriver::Remote::Capabilities.chrome(
       'chromeOptions' => {
-        #'args' => [ "--start-maximized", "headless"]
-        'args' => [ "--start-maximized"]
+        'args' => [ "--start-maximized", "headless"]
+        # 'args' => [ "--start-maximized"]
       }
     )
   )
