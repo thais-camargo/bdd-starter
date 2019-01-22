@@ -18,6 +18,7 @@ Na raiz do projeto de teste, execute o seguinte comando:
 
 ### Instalar os DRIVERS
 * [Chrome Driver](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver)
+* [Chrome Driver - Linux](https://makandracards.com/makandra/29465-install-chromedriver-on-linux)  
 * [Internet Explorer Driver](http://www.seleniumhq.org/download/)
 * [PhantonJS](https://github.com/teampoltergeist/poltergeist)
 
