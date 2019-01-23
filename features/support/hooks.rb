@@ -2,7 +2,7 @@ require_relative 'helper.rb'
 
 Before do |feature|
   ## variable which loads the data file according to the environment
-  CONFIG = YAML.load_file(File.dirname(__FILE__) + "/config/#{ENVIRONMENT_TYPE}.yaml")
+  CONFIG = YAML.load_file(File.dirname(__FILE__) + "/config/#{ENVIRONMENT_TYPE}.yaml") unless defined? CONFIG
 
   ## configure the chosen browser
   Capybara.configure do |config|
