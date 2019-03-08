@@ -22,6 +22,13 @@ Na raiz do projeto de teste, execute o seguinte comando:
 * [Internet Explorer Driver](http://www.seleniumhq.org/download/)
 * [PhantonJS](https://github.com/teampoltergeist/poltergeist)
 * [Firefox - GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+```
+(Gecko Linux/Mac OS)
+cd ~/Downloads/
+wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz`
+tar -zxvf geckodriver-v0.24.0-linux64.tar.gz
+sudo mv geckodriver /usr/local/bin/
+```
 
 ## Executando os testes
 Na raiz do projeto de teste, execute o seguinte comando:  
